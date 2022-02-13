@@ -1,6 +1,6 @@
-## Queue Compressor Bot (For Single Users)
+## Senku Compressor Bot 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2F1Danish-00%2FCompressorQueue&template=https%3A%2F%2Fgithub.com%2F1Danish-00%2FCompressorQueue)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2F1Devilharsha%2Fsenku-compresser&template=httpshttps://github.com/Devilharsha/senku-compresser)
 
 ### Variables
 `APP_ID` `API_HASH` `BOT_TOKEN`
