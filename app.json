@@ -1,10 +1,10 @@
 {
-    "name": "Credits to @harshahero",
+    "name": "Senku compress bot",
     "description": "A Normal Telegram Bot Which can Compress/encode/ Generate Samples of videos.",
     "logo": "https://telegra.ph/file/75ee20ec8d8c8bba84f02.jpg",
     "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
-    "repository": "https://github.com/Devilharsha/CompressorQueue",
-    "success_url": "https://t.me/BotzHub",
+    "repository": "https://github.com/Devilharsha/senku-compresser",
+    "success_url": "https://t.me/SENKUBOTS",
     "stack": "container",
     "env": {
         "APP_ID": {
