@@ -11,7 +11,7 @@
 #    General Public License for more details.
 #
 # License can be found in <
-# https://github.com/1Danish-00/CompressorQueue/blob/main/License> .
+# https://github.com/Devilharsha/CompressorQueue/blob/main/License> .
 
 
 from .FastTelethon import download_file, upload_file
@@ -82,7 +82,7 @@ async def dl_link(event):
     er = stderr.decode()
     try:
         if er:
-            await xxx.edit(str(er) + "\n\n**ERROR** Contact @danish_00")
+            await xxx.edit(str(er) + "\n\n**ERROR** Contact @harshahero")
             WORKING.clear()
             os.remove(dl)
             return os.remove(out)
@@ -222,7 +222,7 @@ async def encod(event):
         er = stderr.decode()
         try:
             if er:
-                await e.edit(str(er) + "\n\n**ERROR** Contact @danish_00")
+                await e.edit(str(er) + "\n\n**ERROR** Contact @harshahero")
                 WORKING.clear()
                 os.remove(dl)
                 return os.remove(out)
