@@ -1,7 +1,7 @@
 {
     "name": "Senku compress bot",
     "description": "A Normal Telegram Bot Which can Compress/encode/ Generate Samples of videos.",
-    "logo": "https://telegra.ph/file/75ee20ec8d8c8bba84f02.jpg",
+    "logo": "https://telegra.ph/file/77bce8e17dd13e6656413.jpg",
     "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
     "repository": "https://github.com/Devilharsha/senku-compresser",
     "success_url": "https://t.me/SENKUBOTS",
@@ -25,13 +25,13 @@
         },
         "THUMBNAIL": {
             "description": "Put Link of any picture.",
-            "value": "https://telegra.ph/file/75ee20ec8d8c8bba84f02.jpg",
+            "value": "https://telegra.ph/file/77bce8e17dd13e6656413.jpg",
             "required": false
         },
         "FFMPEG": {
             "description": "Put your FFMPEG code.",
             "value": "ffmpeg -i '''{}''' -preset ultrafast -c:v libx265 -crf 27 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? '''{}''' -y",
-            "required": false
+            "required": true
         }
     }
 }
