@@ -33,7 +33,9 @@ async def start(event):
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="https://github.com/Devilharsha/senku-compresser"),
+                Button.url(
+                    "SOURCE CODE", url="https://github.com/Devilharsha/senku-compresser"
+                ),
                 Button.url("DEVELOPER", url="t.me/SENKUBOTS"),
             ],
         ],
@@ -59,7 +61,9 @@ async def beck(event):
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="https://github.com/Devilharsha/senku-compresser"),
+                Button.url(
+                    "SOURCE CODE", url="https://github.com/Devilharsha/senku-compresser"
+                ),
                 Button.url("DEVELOPER", url="t.me/SENKUBOTS"),
             ],
         ],
